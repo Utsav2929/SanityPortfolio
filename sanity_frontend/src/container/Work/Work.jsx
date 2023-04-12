@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import {AiFillEye,AiFillGithub} from 'react-icons/ai';
-import {motion, useAnimation} from 'framer-motion';
+import {motion} from 'framer-motion';
 import {AppWrap} from '../../wrapper';
 import {urlFor,client} from '../../client';
 
@@ -56,7 +56,7 @@ useEffect(() => {
 
 
     <div className='app__work-filter'>
-    {['ui/ux','mobile development','webdevelopment','react js','sih','All'].map((item,index)=>(
+    {['UI/UX','ANDROID DEVELOPMENT','WEBDEVELOPMENT','AI/ML Model','All'].map((item,index)=>(
       <div key={index} onClick={()=>handleWorkFilter(item)} className={`app__work-filter-item app__flex p-text ${activeFilter===item?'item-active': ''}`}>
        
        {item}
