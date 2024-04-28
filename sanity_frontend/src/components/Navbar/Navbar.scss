@@ -4,12 +4,13 @@
     justify-content: space-between;
     align-items: center;
     padding :1rem 2rem;
-    background: rgba(255,255,255,0.25);
     backdrop-filter:blur(4px);
     -webkit-backdrop-filter:blur(4px);
     border: 1px solid rgba(255,25,255,0.18);
     position: fixed;
     z-index: 2;
+    background-color: var(--primary-color);
+    color: var(--white-color);
 }
 .app__navbar-logo
 {
@@ -58,12 +59,12 @@
             font-weight: 500;
             transition: all 0.3s ease-in-out;
             &:hover{
-                color: var(--secondary-color);
+                color: var(--brown-color);
             }
         }
         &:hover {
             div{
-                background: var(--secondary-color);
+                background: var(--brown-color);
             }
         }
     }
@@ -83,11 +84,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--secondary-color);
+    background: var(--white-color);
     svg{
         width: 70%;
         height: 70%;
-        color: var(--white-color);
+        color: var(--secondary-color);
 
     }
 
@@ -108,7 +109,7 @@
         flex-direction: column;
 
         background: url('../../assets/bgWhite.png');
-        background-color: var(--white-color);
+        background-color: var(--black-color) !important;
         background-size: cover;
         background-repeat: repeat;
         box-shadow: 0,0,20px rgba(168,168,168,0.15);

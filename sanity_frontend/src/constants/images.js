@@ -27,6 +27,8 @@ import about04 from '../assets/about04.png';
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 
+import blob from '../assets/blob.png';
+
 import logomade1 from '../assets/logomade1.png';
 
 import logomade2 from '../assets/logomade2.png';
@@ -45,6 +47,7 @@ import spotify from '../assets/spotify.png';
 export default {
   email,
   mobile,
+  blob,
   api,
   cpp,
   css,

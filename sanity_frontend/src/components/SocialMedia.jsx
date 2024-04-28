@@ -13,7 +13,7 @@ const SocialMedia = () => {
             <a href='https://www.linkedin.com/in/utsav-mandhani-0a9356222/' target="_blank" rel='noreferrer'><BsLinkedin/></a>
             
         </div>
-        <div>
+        <div title='Github Profile'>
            <a href='https://github.com/Utsav2929' target="_blank" rel='noreferrer'> <AiFillGithub/></a>
             
         </div>
@@ -24,7 +24,7 @@ const SocialMedia = () => {
           
 
         </div>
-        <div>
+        <div title='Leetcode Profile'>
         <a href='https://leetcode.com/utsav2929/' target="_blank" rel='noreferrer'> <SiLeetcode/></a>
 
         </div>

@@ -3,15 +3,7 @@ import './About.scss';
 import {motion} from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { urlFor,client } from '../../client';
-// const abouts=[
-//   { title:'Webdeveloment',description:'I Am Utsav',imgUrl:images.about01},
-  
-//   { title:'android developent',description:'I Am Utsav',imgUrl:images.about02},
-  
-//   { title:'competitive programming',description:'I Am Utsav',imgUrl:images.about03},
-  
-//   { title:'web animation',description:'I Am Utsav',imgUrl:images.about04}
-// ];
+
 const About = () => {
   const [abouts,setAbouts]=useState([]);
   useEffect(()=>{
