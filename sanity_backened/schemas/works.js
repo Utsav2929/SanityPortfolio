@@ -25,6 +25,11 @@ export default {
         type: 'string',
       },
       {
+        name: 'techstack',
+        title: 'Tech Stack',
+        type: 'string',
+      },
+      {
         name: 'imgUrl',
         title: 'ImageUrl',
         type: 'image',

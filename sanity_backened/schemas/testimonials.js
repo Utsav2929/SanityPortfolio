@@ -22,6 +22,14 @@ export default {
             },
         },  
         {
+            name:'certificateurl',
+            title:'CertificateUrl',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+        },  
+        {
             name:'feedback',
             title:'Feedback',
             type:'string'
